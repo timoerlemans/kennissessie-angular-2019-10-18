@@ -1,0 +1,12 @@
+<ul class="list">
+  <ng-container *ngFor="let framework of frameworks; let i = index;">
+    <li *ngIf="allItemsShown || (!allItemsShown && i < 5)" class="list__item">
+      {{framework}}
+    </li>
+  </ng-container>
+</ul>
+
+<button (click)="showAllItems()">
+  <span *ngIf="allItemsShown">Toon eerste 5 items</span>
+  <span *ngIf="!allItemsShown">Toon alle items</span>
+</button>
