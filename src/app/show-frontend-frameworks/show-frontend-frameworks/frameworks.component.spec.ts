@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ShowFrontendFrameworksComponent } from './show-frontend-frameworks.component';
+import { Frameworks } from './frameworks.component';
 
 describe('ShowFrontendFrameworksComponent', () => {
-  let component: ShowFrontendFrameworksComponent;
-  let fixture: ComponentFixture<ShowFrontendFrameworksComponent>;
+  let component: Frameworks;
+  let fixture: ComponentFixture<Frameworks>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ShowFrontendFrameworksComponent ]
+      declarations: [ Frameworks ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ShowFrontendFrameworksComponent);
+    fixture = TestBed.createComponent(Frameworks);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

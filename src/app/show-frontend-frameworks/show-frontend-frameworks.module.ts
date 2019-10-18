@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ShowFrontendFrameworksComponent } from './show-frontend-frameworks/show-frontend-frameworks.component';
+import { Frameworks } from './show-frontend-frameworks/frameworks.component';
 
 
 
 @NgModule({
-  declarations: [ShowFrontendFrameworksComponent],
+  declarations: [Frameworks],
   exports: [
-    ShowFrontendFrameworksComponent
+    Frameworks
   ],
   imports: [
     CommonModule
